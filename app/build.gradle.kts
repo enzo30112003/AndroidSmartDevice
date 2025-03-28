@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "fr.isen.morelli.androidsmartdevice"
-        minSdk = 25
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -37,6 +37,7 @@ android {
     buildFeatures {
         compose = true
     }
+
 }
 
 dependencies {
@@ -62,4 +63,5 @@ dependencies {
     implementation("androidx.compose.ui:ui:1.6.0")
     implementation("androidx.compose.material:material:1.6.0")
     implementation("androidx.compose.ui:ui-tooling-preview:1.6.0")
+    implementation ("androidx.compose.material3:material3:1.2.1")
 }
