@@ -61,6 +61,7 @@ class DeviceActivity : ComponentActivity() {
                         counterButton1.value = 0
                         counterButton3.value = 0
                     }
+
                 )
             }
         }
